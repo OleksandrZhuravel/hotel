@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Booking</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240122063843">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__content">
+					<a href="#" class="header__logo">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture>
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="home.html" class="menu__link">ГОЛОВНА</a></li>
+								<li class="menu__item"><a href="aboutus.html" class="menu__link">ПРО НАС</a></li>
+								<li class="menu__item"><a href="booking.html" class="menu__link">ЗАБРОНЮВАТИ</a></li>
+								<li class="menu__item"><a href="contacts.html" class="menu__link">КОНТАКТИ</a></li>
+								<li class="menu__item"><a href="cabinet.html" class="menu__link">ОСОБИСТИЙ КАБІНЕТ</a></li>
+							</ul>
+							<div class="header__lang">
+								<svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75" fill="none">
+									<path d="M37.5 67.5C45.4565 67.5 53.0871 64.3393 58.7132 58.7132C64.3393 53.0871 67.5 45.4565 67.5 37.5C67.5 29.5435 64.3393 21.9129 58.7132 16.2868C53.0871 10.6607 45.4565 7.5 37.5 7.5C29.5435 7.5 21.9129 10.6607 16.2868 16.2868C10.6607 21.9129 7.5 29.5435 7.5 37.5C7.5 45.4565 10.6607 53.0871 16.2868 58.7132C21.9129 64.3393 29.5435 67.5 37.5 67.5ZM37.5 11.25C39.9637 11.25 42.7763 13.4625 45.0825 18.405C45.8963 20.1525 46.605 22.1625 47.1788 24.375H27.8213C28.395 22.1625 29.1038 20.1525 29.9212 18.405C32.22 13.4625 35.0325 11.25 37.5 11.25ZM26.52 16.8188C25.4127 19.2443 24.5545 21.776 23.9587 24.375H14.76C17.9259 18.9033 22.9546 14.7531 28.9275 12.6825C28.0238 13.92 27.2175 15.3225 26.52 16.8188ZM23.22 28.125C22.7347 31.2263 22.4939 34.361 22.5 37.5C22.5 40.7625 22.7512 43.92 23.2237 46.875H12.975C11.8313 43.8818 11.2467 40.7042 11.25 37.5C11.25 34.2 11.8613 31.035 12.975 28.125H23.2237H23.22ZM23.9587 50.625C24.6187 53.4113 25.485 55.9575 26.52 58.1813C27.2175 59.6775 28.0238 61.08 28.9275 62.3175C22.9546 60.2469 17.9259 56.0967 14.76 50.625H23.9625H23.9587ZM27.8213 50.625H47.1788C46.6622 52.6748 45.9592 54.6732 45.0788 56.595C42.78 61.5375 39.9675 63.75 37.5 63.75C35.0362 63.75 32.2238 61.5375 29.9175 56.595C29.0397 54.6729 28.3393 52.6746 27.825 50.625H27.8213ZM47.9775 46.875H27.0225C26.5014 43.7773 26.243 40.6412 26.25 37.5C26.25 34.1887 26.5238 31.0312 27.0225 28.125H47.9775C48.4762 31.0312 48.75 34.1887 48.75 37.5C48.75 40.8112 48.4762 43.9688 47.9775 46.875ZM51.0413 50.625H60.24C57.0741 56.0967 52.0454 60.2469 46.0725 62.3175C46.9762 61.08 47.7825 59.6775 48.48 58.1813C49.515 55.9575 50.3812 53.4113 51.0413 50.625ZM62.0288 46.875H51.7762C52.2487 43.92 52.5 40.7625 52.5 37.5C52.5 34.2375 52.2487 31.08 51.7762 28.125H62.025C63.1388 31.035 63.75 34.2 63.75 37.5C63.75 40.8 63.1388 43.965 62.025 46.875H62.0288ZM46.0725 12.6825C52.0456 14.7528 57.0744 18.903 60.24 24.375H51.0375C50.4417 21.7761 49.5835 19.2443 48.4762 16.8188C47.8085 15.3658 47.0023 13.9807 46.0687 12.6825H46.0725Z" fill="white" />
+								</svg>
+								<div class="header__select">
+									<select name="form[]" data-class-modif="form">
+										<option value="1" selected>UA</option>
+										<option value="2">RU</option>
+										<option value="3">EN</option>
+									</select>
+								</div>
+							</div>
+						</nav>
+					</div>
+					<button type="button" class="icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<div class="title">
+				<div class="title__container">
+					<h2>Бронювання будиночка в Карпатах</h2>
+				</div>
+			</div>
+			<div class="hotel-booking">
+				<div class="hotel-booking__container">
+					<a href="booking.html" class="hotel-booking__button btn">
+						<svg xmlns="http://www.w3.org/2000/svg" width="38" height="23" viewBox="0 0 38 23" fill="none">
+							<path d="M0.939339 10.3453C0.353554 10.9311 0.353554 11.8809 0.939339 12.4667L10.4853 22.0126C11.0711 22.5984 12.0208 22.5984 12.6066 22.0126C13.1924 21.4268 13.1924 20.4771 12.6066 19.8913L4.12132 11.406L12.6066 2.92073C13.1924 2.33494 13.1924 1.38519 12.6066 0.799405C12.0208 0.213618 11.0711 0.213618 10.4853 0.799405L0.939339 10.3453ZM38 9.90601L2 9.90601V12.906L38 12.906V9.90601Z" fill="white" />
+						</svg> Назад
+					</a>
+					<div class="hotel-booking__photo">
+						<div class="hotel-booking__big-photo">
+							<picture><source srcset="img/hotel1.webp" type="image/webp"><img src="img/hotel1.png" alt="img"></picture>
+							<picture><source srcset="img/hotel2.webp" type="image/webp"><img src="img/hotel2.png" alt="img"></picture>
+						</div>
+						<div class="hotel-booking__right">
+							<div class="hotel-booking__text">
+								<p>Затишні дерев’яні будиночки, які заховались на окраїні лісу, зустрічатимуть Вас чудовим краєвидом на ранкові полонини.</p>
+								<p>Ви можете обрати кількість кімнат та місце, яке
+									буде ідеальним для Вас. Територія, на якій базуються будиночки, підійде як і для великих компаній, яким потрібно бути поряд у декількох будинках, так і
+									для пар, які хочуть бути на одинці.</p>
+							</div>
+							<div class="hotel-booking__small-photo">
+								<picture><source srcset="img/hotel3.webp" type="image/webp"><img src="img/hotel3.png" alt="img"></picture>
+								<picture><source srcset="img/hotel4.webp" type="image/webp"><img src="img/hotel4.png" alt="img"></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="places">
+					<div class="places__container">
+						<div class="places__title">
+							<h2>Наявність місць</h2>
+						</div>
+						<div class="places__form">
+							<div class="places__date">
+								<div class="places__subtitle">
+									<h5>Коли б Ви хотіли зупинись в помешканні Полонини Карпат?</h5>
+								</div>
+								<div class="places__inputs-date">
+									<div class="places__input-first">
+										<label class="places__input-date" for="date">Дата заїзду</label>
+										<input id="date" type="date">
+									</div>
+									<div class="places__input-first">
+										<label class="places__input-date" for="date">Дата заїзду</label>
+										<input id="date" type="date">
+									</div>
+								</div>
+								<div class="places__inputs-number">
+									<div class="places__input-number">
+										<label class="" for="number">Номери</label>
+										<input id="number" type="number" value="1" autofocus>
+									</div>
+									<div class="places__input-number">
+										<label class="" for="number">Дорослі</label>
+										<input id="number" type="number" value="2">
+									</div>
+									<div class="places__input-number">
+										<label class="places__input-number" for="number">Діти</label>
+										<input id="number" type="number" value="0">
+									</div>
+								</div>
+							</div>
+							<button type="submit" class="places__button" data-ripple>Перевірити наявність вільних місць</button>
+						</div>
+						<div class="places__describe">
+							<div class="places__item">
+								<div class="places__mini-title">
+									<h4>Вміщує</h4>
+								</div>
+								<div class="places__info">
+									<svg xmlns="http://www.w3.org/2000/svg" width="55" height="60" viewBox="0 0 55 60" fill="none">
+										<g clip-path="url(#clip0_109_5067)">
+											<path d="M26.625 36C28.956 36 31.2346 35.4135 33.1728 34.3147C35.1109 33.2159 36.6215 31.6541 37.5136 29.8268C38.4056 27.9996 38.639 25.9889 38.1843 24.0491C37.7295 22.1093 36.607 20.3275 34.9588 18.9289C33.3105 17.5304 31.2105 16.578 28.9243 16.1922C26.6381 15.8063 24.2684 16.0043 22.1148 16.7612C19.9612 17.5181 18.1206 18.7998 16.8255 20.4443C15.5305 22.0888 14.8393 24.0222 14.8393 26C14.8393 28.6522 16.081 31.1957 18.2912 33.0711C20.5015 34.9464 23.4992 36 26.625 36ZM44.3036 61C45.085 61 45.8344 60.7366 46.387 60.2678C46.9396 59.7989 47.25 59.163 47.25 58.5C47.25 53.8587 45.077 49.4075 41.2091 46.1256C37.3411 42.8438 32.0951 41 26.625 41C21.1549 41 15.9089 42.8438 12.0409 46.1256C8.17298 49.4075 6 53.8587 6 58.5C6 59.163 6.31043 59.7989 6.86299 60.2678C7.41555 60.7366 8.16499 61 8.94643 61H44.3036Z" fill="black" />
+										</g>
+										<defs>
+											<clipPath id="clip0_109_5067">
+												<rect width="55" height="60" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="55" height="60" viewBox="0 0 55 60" fill="none">
+										<g clip-path="url(#clip0_109_5067)">
+											<path d="M26.625 36C28.956 36 31.2346 35.4135 33.1728 34.3147C35.1109 33.2159 36.6215 31.6541 37.5136 29.8268C38.4056 27.9996 38.639 25.9889 38.1843 24.0491C37.7295 22.1093 36.607 20.3275 34.9588 18.9289C33.3105 17.5304 31.2105 16.578 28.9243 16.1922C26.6381 15.8063 24.2684 16.0043 22.1148 16.7612C19.9612 17.5181 18.1206 18.7998 16.8255 20.4443C15.5305 22.0888 14.8393 24.0222 14.8393 26C14.8393 28.6522 16.081 31.1957 18.2912 33.0711C20.5015 34.9464 23.4992 36 26.625 36ZM44.3036 61C45.085 61 45.8344 60.7366 46.387 60.2678C46.9396 59.7989 47.25 59.163 47.25 58.5C47.25 53.8587 45.077 49.4075 41.2091 46.1256C37.3411 42.8438 32.0951 41 26.625 41C21.1549 41 15.9089 42.8438 12.0409 46.1256C8.17298 49.4075 6 53.8587 6 58.5C6 59.163 6.31043 59.7989 6.86299 60.2678C7.41555 60.7366 8.16499 61 8.94643 61H44.3036Z" fill="black" />
+										</g>
+										<defs>
+											<clipPath id="clip0_109_5067">
+												<rect width="55" height="60" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+								</div>
+							</div>
+							<div class="places__item--center">
+								<div class="places__mini-title">
+									<h4>Тип розміщення</h4>
+								</div>
+								<div class="places__info--center">
+									<p>Двомісний номер </p>
+									<p>1 широке двоспальне ліжко <svg class="places__info--center-svg" xmlns="http://www.w3.org/2000/svg" width="103" height="40" viewBox="0 0 103 40" fill="none">
+											<path d="M14.9375 0.25C8.92297 0.25 3.96875 2.79063 3.96875 5.875V18.5875C1.73844 19.6225 0.3125 21.1038 0.3125 22.75V39.625H18.5938V35.875H84.4062V39.625H102.688V22.75C102.688 21.1038 101.262 19.6225 99.0312 18.5875V5.875C99.0312 2.79063 94.077 0.25 88.0625 0.25H14.9375ZM14.9375 4H88.0625C90.0917 4 91.7188 4.83437 91.7188 5.875V17.125H84.4062V15.25C84.4062 12.1656 79.452 9.625 73.4375 9.625H58.8125C56.0082 9.625 53.4488 10.1875 51.5 11.0875C49.5005 10.1518 46.8943 9.6306 44.1875 9.625H29.5625C23.548 9.625 18.5938 12.1656 18.5938 15.25V17.125H11.2812V5.875C11.2812 4.83437 12.9083 4 14.9375 4ZM29.5625 13.375H44.1875C46.2167 13.375 47.8438 14.2094 47.8438 15.25V17.125H25.9062V15.25C25.9062 14.2094 27.5333 13.375 29.5625 13.375ZM58.8125 13.375H73.4375C75.4667 13.375 77.0938 14.2094 77.0938 15.25V17.125H55.1562V15.25C55.1562 14.2094 56.7833 13.375 58.8125 13.375ZM11.2812 20.875H91.7188C93.748 20.875 95.375 21.7094 95.375 22.75V35.875H91.7188V32.125H11.2812V35.875H7.625V22.75C7.625 21.7094 9.25203 20.875 11.2812 20.875Z" fill="black" />
+										</svg></p>
+								</div>
+							</div>
+							<div class="places__item">
+								<div class="places__mini-title">
+									<h4>Ціна</h4>
+								</div>
+								<div class="places__info">
+									<button type="submit">Показати ціни</button>
+								</div>
+							</div>
+						</div>
+						<a href="#" class="places__arrow top-arrow">
+							<svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101" fill="none">
+								<circle cx="50.5" cy="50.5" r="50.5" fill="#555768" fill-opacity="0.62" />
+								<path d="M50.5 28.8571L38.953 48.8571H62.047L50.5 28.8571ZM52.5 72.1428V46.8571H48.5V72.1428H52.5Z" fill="white" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__text">
+					<p>© 2021 HolidayTime. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240122063843"></script>
+</body>
+
+</html>
